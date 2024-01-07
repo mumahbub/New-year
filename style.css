@@ -1,0 +1,44 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+}
+h1{
+   font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+/* Header section */
+
+.header_image{
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    /* width: 1300px; */
+     height: 600px; 
+    border-radius: 16px;
+    background-position: center;
+    flex-shrink: 0;
+    background:gradient(180deg, #c1bdc7 0%, rgba(2, 1, 6, 0) 100%);
+}
+#New_Year{
+    padding-top: 5%;
+    padding-bottom:0%
+}
+.header_text{
+    text-align: center;
+    color: rgb(251, 255, 1);
+    padding-top:4%;
+}
+
+/* first part */
+
+.first_part{
+    text-align: center;
+}
+.Text_color{
+    color: red;
+}
+.new_year_image{
+   margin-top: 5%;
+   
+}
