@@ -16,15 +16,18 @@ h2{
     height: 600px; 
     border-radius: 16px;
     background-position: center;
-    flex-shrink: 0;}
+    flex-shrink: 0;
+}
+ 
 #New_Year{
     padding-top: 5%;
     padding-bottom:0%
 }
 .header_text{
     text-align: center;
-    color: rgb(251, 255, 1);
+    color: rgb(255, 255, 255);
     padding-top:4%;
+
 }
 
 /* first part */
@@ -121,4 +124,56 @@ h2{
 
 /* footer */
 
-
+.last_part{
+    background-color: #070211;
+    height: 450px;
+    text-align: center;
+}
+.footer{
+    color: aliceblue; 
+    display: flex;
+}
+.footer_lastpart{
+    width: 50%;
+    text-align: justify;
+    padding-left: 10%;
+    margin-top: 5%;
+}
+.collam_2{
+    display: flex;
+}
+.collam_3{
+    display: flex;
+}
+.footer_icon{
+    padding-left: 45%;
+}
+.footer_icon img{
+    padding-right: 10px;
+    height: 25px;
+    width: 25px;
+    padding-top: 15px;
+}
+.follow{
+    padding-top: 7%;
+}
+.follow img{
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+}
+.Unsubscribe{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+}
+.rights{
+    padding-right: 600px;
+}
+.last_rights{
+    padding-right: 100px;
+}
+/* hover */
+.hover:hover{
+   transform: scale(1.1);
+}
